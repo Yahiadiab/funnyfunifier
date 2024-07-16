@@ -1,4 +1,6 @@
-public class compress implements Operations{
+package main;
+
+public class compress implements Operations {
 
     @Override
     public String trial(String str) {

@@ -1,3 +1,5 @@
+package main;
+
 import java.util.*;
 
 public class StringFunifier {
@@ -30,7 +32,7 @@ public class StringFunifier {
     }
 
 
-    public String getFunnyString() {
+    public  String getFunnyString() {
         StringBuilder funnyString = new StringBuilder(boringString);
 
         for (int i = starttrialIndexes.length - 1; i >= 0; i--) {
