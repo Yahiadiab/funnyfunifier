@@ -1,9 +1,13 @@
 package main;
 
-public class compress implements Operations {
+public class Compress extends OperationDecorator {
+
+    public Compress(Operation decoratedoperations) {
+        super(decoratedoperations);
+    }
 
     @Override
-    public String trial(String str) {
+    public StringBuilder trial(StringBuilder str) {
         StringBuilder compressed = new StringBuilder();
         int count = 1;
         for (int i = 1; i < str.length(); i++) {
@@ -21,6 +25,6 @@ public class compress implements Operations {
         if (count > 1) {
             compressed.append(count);
         }
-        return compressed.toString();
+        return compressed;
     }
 }
