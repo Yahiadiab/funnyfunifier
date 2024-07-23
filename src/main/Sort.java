@@ -9,10 +9,10 @@ public class Sort extends OperationDecorator {
     }
 
     @Override
-    public StringBuilder trial(StringBuilder substring);) {
+    public StringBuilder trial(StringBuilder substring) {
         substring = super.trial(substring);
-        char[] chars = substring.toCharArray();
+        char[] chars = substring.toString().toCharArray();
         Arrays.sort(chars);
-        return new substring(chars);
+        return new StringBuilder();
     }
 }

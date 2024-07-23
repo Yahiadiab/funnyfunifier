@@ -12,6 +12,6 @@ public class OperationDecorator implements Operation {
 
     @Override
     public StringBuilder trial(StringBuilder substring) {
-        return null;
+        return decoratedoperations.trial(substring);
     }
 }

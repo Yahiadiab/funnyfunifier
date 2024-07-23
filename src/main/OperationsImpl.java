@@ -6,6 +6,6 @@ public class OperationsImpl implements Operation {
 
     @Override
     public StringBuilder trial(StringBuilder substring) {
-        return null;
+        return substring;
     }
 }

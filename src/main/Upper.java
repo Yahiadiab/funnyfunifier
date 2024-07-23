@@ -7,8 +7,8 @@ public class Upper extends OperationDecorator {
     }
 
     @Override
-    public String trial(String str) {
-        str = super.trial(str);
-        return str.toUpperCase();
+    public StringBuilder trial(StringBuilder substring) {
+        substring = super.trial(substring);
+        return new StringBuilder(substring.toString().toUpperCase());
     }
 }
