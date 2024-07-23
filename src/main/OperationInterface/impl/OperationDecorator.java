@@ -1,4 +1,6 @@
-package main;
+package main.OperationInterface.impl;
+
+import main.OperationInterface.Operation;
 
 public class OperationDecorator implements Operation {
 

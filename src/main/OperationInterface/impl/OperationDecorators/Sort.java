@@ -1,4 +1,7 @@
-package main;
+package main.OperationInterface.impl.OperationDecorators;
+
+import main.OperationInterface.Operation;
+import main.OperationInterface.impl.OperationDecorator;
 
 import java.util.Arrays;
 

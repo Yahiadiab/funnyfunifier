@@ -1,6 +1,9 @@
-package main;
+package main.OperationInterface.impl.OperationDecorators;
 
-public class Lower extends OperationDecorator{
+import main.OperationInterface.Operation;
+import main.OperationInterface.impl.OperationDecorator;
+
+public class Lower extends OperationDecorator {
 
 
     public Lower(Operation decoratedoperations) {

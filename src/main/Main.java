@@ -1,5 +1,13 @@
 package main;
 
+import main.OperationInterface.impl.OperationDecorators.Compress;
+import main.OperationInterface.impl.OperationDecorators.Lower;
+import main.OperationInterface.impl.OperationDecorators.Reverse;
+import main.OperationInterface.impl.OperationDecorators.Upper;
+import main.OperationInterface.impl.Base;
+import main.OperationInterface.Operation;
+import main.FunifierClass.StringFunifier;
+
 import java.util.Scanner;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
